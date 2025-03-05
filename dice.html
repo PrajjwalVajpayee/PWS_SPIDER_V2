@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dice.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="card">
+            <div class="cardimg">
+                <img src="https://mediumrare.imgix.net/30688668d7d2d48d472edd0f1e2bca0758e7ec51cbab8c04d8b7f157848640e0?&dpr=2&format=auto&auto=format&q=50&w=167" alt="">
+            </div>
+            <div class="cardinfo">
+                <h5>THIS APP WILL ONLY WORK IN THIS APP SO CLICK ON "REGISTER" AND MAKE YOUR ACCOUNT </h5>
+                <button class="button" onclick="play();window.open('https://stake.bet/?offer=ezstake&c=laUqKzcC', '_blank');" >REGISTER</button>
+            </div>
+        </div>
+        <div class="slider">
+          <img src="slider.png" alt="">
+          <i id="itag" class="ri-map-pin-2-fill"></i>
+      
+          
+        </div>
+        <h2 id="randomNumberDisplay"></h2>
+        <div class="group">
+            <input placeholder="ENTER CLIENT SEED" type="search" class="input">
+          </div>
+        
+        <button onclick="play();" id="nextButton">Next</button> <!-- Button to trigger random number generation -->
+        
+        <div class="note">
+            <h3>Play with atleast 1000rs.</h3>
+            <h3>Enter active client seed.</h3>
+            <h3>Work in new account only.</h3>
+            <h3>Withdraw on 50% profit..</h3>
+        </div>
+
+    </div>
+    <div id="musicbaji">
+        <audio id="myAudio">
+            <source src="ding.mp3" type="audio/ogg">
+            <source src="ding.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <audio id="clickk" src="click.mp3"></audio>
+    </div>
+    <script src="dice.js"></script>
+</body>
+</html>

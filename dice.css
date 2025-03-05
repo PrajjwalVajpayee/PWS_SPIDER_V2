@@ -1,0 +1,226 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html,body{
+height:100%;
+width:100%;
+background-color: #232831;
+box-sizing: border-box;
+}
+
+.main{
+    height:100vh;
+width:100vw;
+display: flex;
+flex-direction: column;
+justify-content:baseline;
+align-items: center;
+background-color: #232831;
+position: relative;
+gap: 30px;
+
+}
+
+.slider{
+    height: 10vh;
+    width: 95%;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+position: relative;
+
+
+}
+.slider img{
+    width: 100%;
+}
+
+i{
+    position: absolute;
+    color: white;
+    font-size: 10vw;
+    top: 5px;
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+    
+}
+h2{
+    color: #00ff40;
+}
+#nextButton{
+  margin-top: 17vh;
+}
+button {
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 9px;
+    background: #00ff40;
+    border: none;
+    font-family: inherit;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    width: 80%;
+    font-size: 100%;
+   }
+   
+   button:hover {
+    box-shadow: 7px 5px 56px -14px #C3D900;
+   }
+   
+   button:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #C3D900;
+   }
+
+   
+/* Styling start for card */
+.card {
+    height: 20%;
+    width: 95%;
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.15);
+    margin-top: 30px;
+  }
+  
+  .cardimg {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 10px;
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .cardimg img {
+    max-width: 90%;
+    max-height: 90%;
+    aspect-ratio: 1/1;
+    border-radius: 5px;
+  }
+  
+  .cardinfo {
+    padding: 10px;
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .cardinfo h5 {
+    text-align: left;
+  }
+  
+  .card button {
+    width: 100%;
+  }
+
+  /* Styling START for Popup Overlay */
+.popup-overlay {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 45vh;
+    max-width: 700px;
+    text-align: center;
+  }
+  
+  .popup-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+    font-size: 3.8vw;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+  #closePopup {
+    margin-top: 10px;
+  }
+  .group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 80%;
+   }
+   
+   .input {
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+   }
+   
+   .input::placeholder {
+    color: #696969;
+   }
+   
+   .input:focus, input:hover {
+    outline: none;
+    border-color: rgba(234,76,137,0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+   }
+   
+   .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+   }
+   
+   
+   
+   
+   
+  .note{
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    height: 16vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: rgb(0, 0, 0);
+    padding-left: 30px;
+   }

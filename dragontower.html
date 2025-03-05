@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dragontower.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="card">
+            <div class="cardimg">
+                <img src="stake.png" alt="">
+            </div>
+            <div class="cardinfo">
+                <h5>THIS MOD WILL ONLY WORK IN THIS STAKE DRAGON TOWER SO CLICK ON "REGISTER" AND MAKE YOUR ACCOUNT </h5>
+                <button class="button" onclick="play();window.open('https://stake.bet/?offer=ezstake&c=laUqKzcC', '_blank');" >REGISTER</button>
+            </div>
+        </div>
+        <input type="text" name="requiredInput" required style="border: 1px solid white; background-color: black; color: white; padding: 5px;" placeholder="Enter client Seed"/>
+
+        <div class="grid-container">
+            <!-- Grid cells will be dynamically generated here -->
+        </div>
+        <button onclick="play();disable();timer();" id="changeImagesBtn">START</button>
+        <div class="timer" id="timer"></div>
+
+        <div id="notes"> <h4>PLAY EASY MODE</h4>
+            <h4>PLAY WITH ATLEAST 1000RS</h4>
+            <h4>DONT USE OLD ACCOUNT</h4>
+            <h4>WITHDRAW ON 50% PROFIT</h4>
+         
+        </div>
+    </div>
+    <audio id="clickk" src="ding.mp3"></audio>
+    <script src="dragontower.js"></script>
+    <script src=""></script>
+</body>
+</html>

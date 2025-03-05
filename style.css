@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent-div{
+    display: flex;
+    margin-top: 40px;
+    }
+    .carousel {
+        position: relative;
+        background-color: #1f2339;
+      }
+    .every-cont {
+        line-height: 50px;
+        margin-left: 42px;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .overlay {
+        width: 100%;
+        height: 75%;
+        position: absolute;
+        top: 0%;
+        opacity: 0;
+        transition: ease-in;
+        transition-duration: 0s;
+        transition-duration: 0.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    
+    .first-cont {
+        height: 240px;
+      width: 380px;
+      margin: 10px;
+      /* box-shadow: rgba(199, 198, 202, 0.1) 0px 2px 24px 10px; */
+      overflow: hidden;
+      position: relative;
+      background-color: #1f2339;
+      border-radius: 10px;
+    }
+    
+    .first-cont-top {
+        height: 75%;
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
+    }
+    
+    .overlay:hover {
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.185);
+    
+    }.every-cont {
+        line-height: 50px;
+        margin-left: 42px;
+    }
+    
+    .overlay {
+        width: 100%;
+        height: 75%;
+        position: absolute;
+        top: 0%;
+        opacity: 0;
+        transition: ease-in;
+        transition-duration: 0s;
+        transition-duration: 0.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    
+    .overlay:hover {
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.185);
+    
+    }
+    .overlay-btn {
+        width: 35%;
+        height: 10%;
+        background-color: white;
+        margin-top: 15px;
+        font-size: 15px;
+        border: 2px solid white;
+    }
+    
+    .ola {
+        height: 100%;
+        width: 100%;
+        transition: ease-in;
+        transition-duration: 0.2s;
+    }
+    
+    .first-cont:hover .ola {
+        scale: 1.1;
+    }
+    .first-cont-top {
+        height: 75%;
+        width: 100%;
+        background-size: cover;
+        overflow: hidden;
+    }
+    
+    .first-cont-bottom {
+        height: 25%;
+        width: 100%;
+    }
+    .f-cont {
+        font-size: 20px;
+      width: 70%;
+      height: 37px;
+      margin-top: 15px;
+      margin-left: 25px;
+      border-radius: 7px;
+      background-color: #7F00FF;
+      color: white;
+      border: 2px #7F00FF;
+    }
+    
+    .every-cont {
+        line-height: 50px;
+        margin-left: 42px;
+    }
+    
+    
+    .popup {
+        position: fixed;
+        top: 0;
+        left: 7.5%;
+        width: 85%;
+        height: 100%;
+        background-color:rgba(34, 33, 33, 0.5);
+        /* Semi-transparent background */
+        z-index: 999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        /* Disable scrolling */
+    }
+    
+    
+    .popup-content {
+        text-align: center;
+      background-color: #0b0b0b;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 10px;
+      color: white;
+    }
+    .close {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+    }
+    
+    
+    
+    
+    /* Stake Starts From HEre */
+    
+    .stake-par{
+        width: 80vw;
+        height: 200px;
+        margin: 10vw;
+        background-color: #1f2339;
+        border-radius: 20px;
+        display: flex;
+    }
+    
+    .stake-img{
+        border-radius: 64%;
+        width: 142px;
+        margin-top: 28px;
+        margin-left: 10px;
+    }
+    .stake-right{
+        color: white;
+    }
+    .stake-para{
+        margin-top: 46px;
+      margin-left: 50px;
+    }
+    .last{
+        width: 80vw;
+    margin: 10%;
+    
+    }
+    .warn{
+        color: red;
+    }
+    .round{
+        border-radius: 50%;
+        color: red;
+        font-size: 30px;
+    }
+    
+    
+    /* Stake Ends From Here */

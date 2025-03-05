@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Game</title>
+    <link rel="stylesheet" href="stakemines.css">
+    
+</head>
+<body>
+    <div class="card">
+        <div class="cardimg">
+            <img src="stake.png" alt="">
+        </div>
+        <div class="cardinfo">
+            <h5>THIS APP WILL ONLY WORK IN THIS APP SO CLICK ON "REGISTER" AND MAKE YOUR ACCOUNT </h5>
+            <button class="button" onclick="play();window.open('https://stake.bet/?offer=ezstake&c=laUqKzcC', '_blank');" >REGISTER</button>
+        </div>
+    </div>
+
+    <input type="text" name="requiredInput" required style="border: 1px solid white; background-color: black; color: white; padding: 5px;" placeholder="Enter client Seed"/>
+
+
+    <div class="grid-container">
+        <!-- Grid elements -->
+        <!-- Generating grid items dynamically -->
+    </div>
+    <div><button onclick="disable();play()" id="startBtn">PLAY</button></div>
+    <h4 id="wait"></h4>
+   <div id="note" > <h4>PLAY 3 MINES LEVEL WISE</h4>
+    <h4>PLAY WITH ATLEAST 1000RS</h4>
+    <h4>DONT USE OLD ACCOUNT</h4>
+    <h4>ONLY WORK IN NEW ACCOUNT</h4>
+</div>
+
+
+    <audio id="clickk" src="ding.mp3"></audio>
+
+    <script src="stakemines.js"></script>
+    
+</body>
+</html>
